@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ambitious Kitchen - Login</title>
+<link href="favicon/ak.png" type="image/jpeg" rel="icon">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f5f5f5;
+              background-image: url("images/foodwebsite.png");
+		}
+		.container {
+			margin: 300px auto;
+			padding: 20px;
+			background-color: #fff;
+               border: 10px solid yellow;
+			 border-radius: 10%;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+			width: 400px;
+ 
+		}
+        h1 {
+			text-align: center;
+		}
+		
+		form {
+			margin-top: 20px;
+		}
+		input[type="text"],
+		input[type="password"] {
+			padding: 10px;
+			border-radius: 3px;
+			border: 1px solid #ccc;
+			width: 100%;
+			margin-bottom: 10px;
+			box-sizing: border-box;
+			font-size: 16px;
+		}
+		input[type="submit"] {
+			background-color: #00a0e9;
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 3px;
+			border: none;
+			font-size: 16px;
+			cursor: pointer;
+			transition: background-color 0.3s ease-in-out;
+              margin-left:150px;
+              margin-right:150px;
+		}
+		input[type="submit"]:hover {
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+
+        <h1> <img src="logo/ambk.png" width="300 px" height="100 px"></h1>
+
+		<form>
+			<label for="username">Username</label>
+			<input type="text" id="username" name="username" required>
+
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" required>
+
+			<input type="submit" value="Login">
+
+<p>Not a member? <a href="" class="account">Create an account</a> today and join 1 million food lovers.</p>
+		</form>
+	</div>
+</body>
+</html>
